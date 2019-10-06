@@ -19,10 +19,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
      let mySrc = myImage.getAttribute('src');
-     if (mySrc === "https://github.com/Username-Adrian/Username-Adrian.github.io/blob/master/danbo-036.jpg") {
-         myImage.setAttribute("src", "https://github.com/Username-Adrian/Username-Adrian.github.io/blob/master/danbo-037.jpg");
+     if (mySrc === "images/danbo-036.jpg") {
+         myImage.setAttribute("src", "images/danbo-037.jpg");
      } else {
-         myImage.setAttribute("src", "https://github.com/Username-Adrian/Username-Adrian.github.io/blob/master/danbo-036.jpg");
+         myImage.setAttribute("src", "images/danbo-036.jpg");
      }
 }
 
